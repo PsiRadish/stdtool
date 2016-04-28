@@ -32,13 +32,8 @@ class Tool(object):
                 os.remove(self.errfile.name)
     #}
     
-    @property
-    def output(self):
-        pass
-    
-    @output.setter
-    def output(self, value):
-        sys.stdout.write(value)
+    def output(stuff):
+        sys.stdout.write(stuff)
     
 #}
 
