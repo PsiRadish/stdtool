@@ -32,7 +32,7 @@ class Tool(object):
                 os.remove(self.errfile.name)
     #}
     
-    def output(stuff):
+    def output(self, stuff):
         sys.stdout.write(stuff)
     
 #}
